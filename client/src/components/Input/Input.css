@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  padding: 5%;
+  width: 80%;
+  border: none;
+  background: #f9fbff;
+  color: #777777;
+  border-radius: 0 0 0 10px;
+}
+
+input::placeholder {
+  color: #a1c4fd;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: none;
+}
+
+.sendMessage {
+  border: 0;
+  width: 20%;
+  font-size: 1em;
+  color: #a1c4fd;
+  background: #f9fbff;
+  opacity: 1;
+  cursor: pointer;
+  outline: 0;
+}

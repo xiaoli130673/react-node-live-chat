@@ -1,0 +1,37 @@
+.infoBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  background: #f9fbff;
+  border-radius: 10px 10px 0 0;
+}
+
+.leftInnerContainer {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  color: #a1c4fd;
+}
+
+.rightInnerContainer {
+  display: flex;
+  flex: 0.5;
+  justify-content: flex-end;
+  margin-right: 5%;
+  color: #a1c4fd;
+}
+
+.onlineIcon {
+  margin-right: 5%;
+}
+
+.close,
+.close:hover,
+.close:focus {
+  font-size: 16px;
+  color: #a1c4fd;
+  cursor: pointer;
+}
